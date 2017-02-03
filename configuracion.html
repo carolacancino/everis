@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sasha4Ever</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.min.css"> 
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row"><!--row1 header -->
+				<h4>Temas de configuracion</h4>
+			</div><!--fin row1 header -->
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row"><!--row1 section-->
+				<div class="col s12">
+					<h5>Configuracion de app chat Sasha4ever</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="input-field col s6">
+			        <input id="saludo" type="text" class="validate">
+			        <label for="saludo">Saludo Inicial</label>
+		        </div>
+				<div class="col s12">
+					<select class="input-field" id="color">
+						<option value="" disabled selected>Selecciona tu color</option>
+						<option value="red">rojo</option>
+						<option value="green">verde</option>
+						<option value="yellow">amarillo</option>
+						<option value="blue">azul</option>
+						<option value="purple">morado</option>
+					</select>
+					<div>
+						<select class="input-field" id="font">
+							<option value="" disabled selected>Selecciona tu tipografia</option>
+							<option value="Arial">Arial</option>
+							<option value="Verdana">Verdana</option>
+							<option value="New time roman">New time roman</option>
+							<option value="Comic Sans MS">Comic Sans</option>
+							<option value="Calibri">Calibri</option>
+						</select>
+					</div>
+					<div class="input-field">
+						<select class="input-field">
+							<option value="" disabled selected>Selecciona tu avatars</option>
+							<option value="" data-icon="dist/img/default_avatar_femela.jpg" class="circle img-responsive">example 1</option>
+							<option value="" data-icon="dist/img/default_avatar_male.jpg" class="circle img-responsive">example 2</option>
+							<option value="" data-icon="dist/img/default_avatar_femela.jpg" class="circle img-responsive">example 1</option>
+						</select>
+					</div>
+					<div >
+						<form action="#" class="row">
+							<div class="file-field input-field col s10">
+								<div class="btn">
+									<span>File</span>
+									<input type="file" id="input" accept="image/*">
+								</div>
+								<div class="file-path-wrapper">
+									<input class="file-path validate" type="text">
+								</div>
+							</div>
+							<a href="#!" class=" modal-action wwaves-effect waves-light  btn-large col s2" id="subir" name="action"><i class="material-icons right">cloud_upload</i>Subir</a>
+						</form>
+
+					</div>
+					<a href="vista-usuario.html" class="waves-effect waves-light btn">Chat Sasha4ever</a>
+
+				</div>
+				
+			</div><!--fin row1 section-->
+		</div>
+	</section>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
+	<script type="text/javascript" src="src/js/configuracion.js"></script>
+</body>
+</html>
